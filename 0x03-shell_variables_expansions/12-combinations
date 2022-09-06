@@ -1,2 +1,3 @@
 #!/bin/bash
-echo {h,H}{a,A}{r,R}{l,L}{e,E}{y,Y}
+echo {a..z}{a..z} | tr " " "
+" | grep -v "oo"
